@@ -19,9 +19,6 @@ def querydb(query="SELECT * FROM default.football_player_stats_2020_2021"): # LI
         #for row in result:
             #print(row)
     
-    #print(type(result))
-    print(result[1].key)
-    print(type(result[1]))
     return result
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@ import numpy as np
 import math
 
 class KNN:
-    def __init__(self, dist_metric, k):
+    def __init__(self, dist_metric='euclidean', k=3):
         if dist_metric == "euclidean":
             self.dist_metric = self.euclidean_distance
         elif dist_metric == 'manhattan':

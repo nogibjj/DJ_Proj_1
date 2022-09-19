@@ -13,7 +13,7 @@ def cli():
 @cli.command()
 @click.option(
     "--query",
-    default="SELECT * FROM default.premier_league_player_stats_2_csv LIMIT 2",
+    default="SELECT * FROM default.football_player_stats_2020_2021 LIMIT 2",
     help="SQL query to execute",
 )
 def cli_query(query):
