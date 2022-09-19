@@ -11,7 +11,7 @@ To set up the environment we have our requirements.txt file which holds all the 
 Our dblib subfolder we have several scripts that interact with one another. get_sql_table connects to the databricks cluster and pulls in our data. preprocess then preprocesses the data so it can be ingestible by the model. knn_predict holds the knn object, and lastly, predict_impact puts it all together. 
 
 ### Workflow diagram
-![Diagram](/Users/danyjabban/Desktop/proj1_diagram.png)
+![Diagram](/Users/danyjabban/Desktop/tree_split.png)
 
 ### Command Line Tool
 
